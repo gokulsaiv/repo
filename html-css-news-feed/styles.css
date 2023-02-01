@@ -1,88 +1,88 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-.heading{
-    
-    margin-top: none;
-    background-color:#02245c;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
+h1 {
+  margin-left: 4cm;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2.3em;
 }
-.head-title{
-    background-color: aliceblue;
-    width: 30%;
-    height: 80px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    font-weight: 900;
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: #02245c;
 }
-h4{
-    
-    font-weight: 900;
-    margin-bottom: 1px;
-    }
-    h6{
-        
-        margin-top: 0px;
-        margin-bottom: 5px;
-    }
-.menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+h4 {
+  font-weight: 900;
+  margin-bottom: 1px;
 }
-input{
-    margin-right: 0cm;
-    width: 120px;;
+h6 {
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
-.dropdown{
-    display: flex;
-    flex-direction: column;
+input {
+  margin-right: 0cm;
+  width: 120px;
 }
-button{
-    background-color: black;
-    color: aliceblue;
-}
-h1{
-    margin-left:4cm;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2.3em;
-}
-hr{
-    margin-left: 0px;
-    margin-right: 0px;
-}
-img{
-    float: left;
-    padding-right: 1cm;
-    height: 200px;
-}
-.arctile{
-    margin: 10px 0px 10px 0px;
-    padding-bottom: 1.5cm;
-}
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#02245c;
-    height: 50px;
-    color: aliceblue;
-}
-h3{
-    font-family: 'Poppins', sans-serif;
-    color: #02245c;
-}
-label{
-    font-weight:700 ;
+button {
+  background-color: black;
+  color: aliceblue;
 }
 
-#main-heading{
-    color: black;
+hr {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+img {
+  float: left;
+  padding-right: 1cm;
+  height: 200px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #02245c;
+  height: 50px;
+  color: aliceblue;
+}
+
+label {
+  font-weight: 700;
+}
+.heading {
+  margin-top: none;
+  background-color: #02245c;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-title {
+  background-color: aliceblue;
+  width: 30%;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.arctile {
+  margin: 10px 0px 10px 0px;
+  padding-bottom: 1.5cm;
+}
+
+#main-heading {
+  color: black;
 }
