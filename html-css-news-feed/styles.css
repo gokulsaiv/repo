@@ -25,6 +25,14 @@ input {
 button {
   background-color: black;
   color: aliceblue;
+  border-radius: 4px;
+  transition: all 0.5s  ;
+  
+}
+button:hover {
+  box-shadow: 5px 5px 5px #423f38;
+  
+  
 }
 
 hr {
@@ -81,6 +89,11 @@ label {
 .arctile {
   margin: 10px 0px 10px 0px;
   padding-bottom: 1.5cm;
+}
+.article-btn {
+  background-color: #f2190a;
+  border: 0px;
+  padding: 7px 7px 7px 7px;
 }
 
 #main-heading {
