@@ -31,7 +31,7 @@ button {
 }
 button:hover {
   box-shadow: 5px 5px 5px #423f38;
-  
+  width: 140px;
   
 }
 
@@ -98,4 +98,72 @@ label {
 
 #main-heading {
   color: black;
+}
+/* code for mobile version*/
+@media screen and (max-width: 480px){
+ 
+  #main-heading{
+    font-size: small;
+    margin-top:0.7cm;
+  }
+  h6{
+    font-size: 0.5em;
+    
+  }
+  h1{
+    font-size: medium;
+    margin-left: 1.4cm;
+    margin-right:1.2cm;
+    
+    
+  }
+  img{
+    height: 110px;;
+  }
+  label{
+    font-size:0.5em;
+  }
+  input{
+    width: 60px;
+  }
+  .subscribe{
+    font-size: 10px;
+  }
+  h5{
+    font-weight: 400;
+  }
+  button:hover {
+    box-shadow: 5px 5px 5px #423f38;
+    width: 140px;
+    
+  }
+  #footer-text{
+    font-size: small;
+  }
+  
+  
+  
+  
+}
+
+@media screen and (max-width: 764px){
+  label{
+    font-size: small;
+  }
+  img{
+    height: 160px;
+    
+  }
+  p{
+    font-size: 1em;
+  }
+
+}
+@media only screen and (max-width: 722px) and (min-width: 481px){
+h1{
+  font-size: 1.5em;
+}
+label{
+ font-size: x-small;
+}
 }
