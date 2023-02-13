@@ -1,49 +1,56 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
 h1 {
   margin-left: 4cm;
   font-family: "Roboto Mono", monospace;
   font-size: 2.3em;
 }
+
 h3 {
   font-family: "Poppins", sans-serif;
   color: #02245c;
 }
+
 h4 {
   font-weight: 900;
   margin-bottom: 1px;
 }
+
 h6 {
   margin-top: 0px;
   margin-bottom: 5px;
 }
+
 input {
   margin-right: 0cm;
   width: 120px;
 }
+
 button {
   background-color: black;
   color: aliceblue;
   border-radius: 4px;
-  transition: all 0.5s  ;
-  
+  transition: all 0.5s;
 }
+
 button:hover {
   box-shadow: 5px 5px 5px #423f38;
   width: 140px;
-  
 }
 
 hr {
   margin-left: 0px;
   margin-right: 0px;
 }
+
 img {
   float: left;
   padding-right: 1cm;
   height: 200px;
 }
+
 footer {
   display: flex;
   justify-content: center;
@@ -56,6 +63,7 @@ footer {
 label {
   font-weight: 700;
 }
+
 .heading {
   margin-top: none;
   background-color: #02245c;
@@ -64,6 +72,7 @@ label {
   justify-content: center;
   align-items: center;
 }
+
 .head-title {
   background-color: aliceblue;
   width: 30%;
@@ -90,6 +99,7 @@ label {
   margin: 10px 0px 10px 0px;
   padding-bottom: 1.5cm;
 }
+
 .article-btn {
   background-color: #f2190a;
   border: 0px;
@@ -99,71 +109,74 @@ label {
 #main-heading {
   color: black;
 }
+
 /* code for mobile version*/
-@media screen and (max-width: 480px){
- 
-  #main-heading{
+@media screen and (max-width: 480px) {
+  #main-heading {
     font-size: small;
-    margin-top:0.7cm;
+    margin-top: 0.7cm;
   }
-  h6{
+
+  h6 {
     font-size: 0.5em;
-    
   }
-  h1{
+
+  h1 {
     font-size: medium;
     margin-left: 1.4cm;
-    margin-right:1.2cm;
-    
-    
+    margin-right: 1.2cm;
   }
-  img{
-    height: 110px;;
+
+  img {
+    height: 110px;
   }
-  label{
-    font-size:0.5em;
+
+  label {
+    font-size: 0.5em;
   }
-  input{
+
+  input {
     width: 60px;
   }
-  .subscribe{
+
+  .subscribe {
     font-size: 10px;
   }
-  h5{
+
+  h5 {
     font-weight: 400;
   }
+
   button:hover {
     box-shadow: 5px 5px 5px #423f38;
     width: 140px;
-    
   }
-  #footer-text{
+
+  #footer-text {
     font-size: small;
   }
-  
-  
-  
-  
 }
 
-@media screen and (max-width: 764px){
-  label{
+@media screen and (max-width: 764px) {
+  label {
     font-size: small;
   }
-  img{
+
+  img {
     height: 160px;
-    
   }
-  p{
+
+  p {
     font-size: 1em;
   }
+}
 
-}
-@media only screen and (max-width: 722px) and (min-width: 481px){
-h1{
-  font-size: 1.5em;
-}
-label{
- font-size: x-small;
-}
+@media only screen and (max-width: 722px) and (min-width: 481px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  label {
+    font-size: x-small;
+  }
 }
