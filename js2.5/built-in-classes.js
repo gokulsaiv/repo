@@ -37,5 +37,5 @@ Array.prototype.odd = function () {
   return result;
 };
 
-a = [1, 2, 3, 4, 5];
-console.log(a.odd());
+a = [ 1, 8, 27, 64, 125 ];
+console.log(a.square());
