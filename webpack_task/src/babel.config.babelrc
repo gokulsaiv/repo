@@ -1,0 +1,7 @@
+// .babelrc
+{
+    "plugins": [
+        "transform-remove-console"
+      ]
+  }
+  
