@@ -1,0 +1,163 @@
+.body1 {
+  background-color: #262424;
+  color: #ffff;
+}
+#logo{
+  
+}
+#toggle {
+  border-radius: 15px;
+  border: 1.5px solid #d1c6c5;
+  margin-left: auto;
+  
+  
+}
+#ytlogo{
+ height: 39px;
+ margin-left: 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-weight: 300;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+#input {
+  border-radius: 17px 0px 0px 17px;
+  border: 1.5px solid #d1c6c5;
+  height: 35px;
+  border-right: 0px;
+  width: 620px;
+  margin-left: 210px;
+  font-size: 1.2em;
+}
+#seach-logo{
+  margin-top: 5px;
+}
+#moon-logo{
+  height:35px;
+  width: auto;
+}
+
+#btn-search {
+  border: 1.5px solid #d1c6c5;
+  border-radius: 0px 17px 17px 0px;
+  height: 39px;
+  width: 55px;
+  
+ 
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 2px 2px 2px #cccccc;
+  border-radius: 7px;
+  margin: 50px;
+  display: flex;
+  justify-content: start;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px #474545;
+}
+
+img {
+  border-radius: 9px;
+  height: 140px;
+  width: 200px;
+  margin-left: 5px;
+}
+
+.components {
+  margin-left: 20px;
+}
+
+h4 {
+  font-weight: 700;
+  margin: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 0.75em;
+  font-weight: 700;
+  margin: 5px;
+}
+@media only screen and (max-width: 390px) {
+ .card-img{
+  height: 90px;
+ }
+ .card{
+  width: 480px;
+ }
+ #input {
+  border-radius: 17px 0px 0px 17px;
+  border: 1.5px solid #d1c6c5;
+  height: 35px;
+  border-right: 0px;
+  width: 120px;
+  margin-left: 100px;
+  font-size: 1.2em;
+}
+#toggle {
+  border-radius: 15px;
+  border: 1.5px solid #d1c6c5;
+  margin-left: auto;
+  
+  
+}
+.card:hover {
+  box-shadow: 5px 5px 5px #686767;
+}
+#ytlogo{
+  height: 39px;
+  margin-left: 60px;
+ }
+
+
+}
+#next-img{
+  height: 35px;
+  width: 30px;
+  margin-right: 5px;
+  
+  
+  
+}
+#previous-img{
+  height: 35px;
+  width: 30px;
+margin-right: 5px;
+  
+}
+#next{
+  border-radius: 17px;
+  border: none;
+  background-color: #ffff;
+}
+#previous{
+  border-radius: 17px;
+  border: none;
+  background-color: #ffff;
+
+  
+
+}
+.navigation{
+  display: flex;
+  justify-content: center;
+  
+}
