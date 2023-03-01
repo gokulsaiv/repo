@@ -4,10 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css'
 import { Handle } from './feature';
 
-//const fun=require('./feature');
 
-const btn=document.getElementById('btn').addEventListener('click',function(){
-    //console.log("called");
+
+const search_btn=document.getElementById('btn').addEventListener('click',function(){
+    
     const obj=new Handle();
     let data=obj.handle()
     data.then(function(res){
